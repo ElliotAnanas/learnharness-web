@@ -9,6 +9,7 @@ export * from "./events-stream.ts";
 export * from "./chats.ts";
 export * from "./graph.ts";
 export { NotesImportError } from "../agent/subagents/extraction.ts";
+export { pdfExtract, pdfProbe } from "../agent/subagents/pdf-ops.ts";
 export * from "./commit-positions.ts";
 export * from "./jobs.ts";
 export * from "./stores.ts";
